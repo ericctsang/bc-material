@@ -1,6 +1,6 @@
 package week1;
 
-public class dataType {
+public class DataType {
   public static void main(String[] args) {
     // char 可用ASCII code表示 e.g. 'A' = 65
     char gender = 'z'; // or 122
