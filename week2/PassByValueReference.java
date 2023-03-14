@@ -1,14 +1,14 @@
 public class PassByValueReference {
 
-  public static void doSth(int x) {
+  public static void doSth(int x) { // overloading int
     x = 99;
   }
 
-  public static void doSth(Integer x) {
+  public static void doSth(Integer x) { // overloading Integer
     x = 99;
   }
 
-  public static void doSth(StringBuilder x) {
+  public static void doSth(StringBuilder x) { // overlaoding StringBuilder
     x.append(" Lee");
   }
 
