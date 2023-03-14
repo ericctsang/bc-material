@@ -1,18 +1,20 @@
-package week2.Animal;
+package Animal;
 
-public class Animal {
+public abstract class Animal {
   String type;
 
-  public Animal(){
-    
-  }
 
   public Animal(String type) {
     this.type = type;
   }
 
-  public void setType(String type){
+  public void setType(String type) {
     this.type = type;
+  }
+
+  public String sound() {
+    System.out.println("Meow");
+    return "Meow";
   }
 
 }

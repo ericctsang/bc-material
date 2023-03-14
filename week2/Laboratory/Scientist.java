@@ -1,4 +1,4 @@
-package week2.Laboratory;
+package Laboratory;
 
 public class Scientist {
   private String name;
@@ -7,7 +7,8 @@ public class Scientist {
   Permission permission;
 
 
-  public Scientist() { // constructor
+  public Scientist() { // empty constructor, 
+                       // empty constructor is default if no other constructor  
 
   }
 

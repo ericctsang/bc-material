@@ -1,4 +1,4 @@
-package week2.School;
+package School;
 
 public class School {
 

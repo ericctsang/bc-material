@@ -1,4 +1,4 @@
-package week2.Laboratory;
+package Laboratory;
 
 public class Laboratory {
 
@@ -20,6 +20,8 @@ public class Laboratory {
     Scientist scientist2 = new Scientist("Eric", 9999);
     scientist2.setPosition("Phy Scientist");
     scientist2.showPermissions();
+
+    
 
     
     

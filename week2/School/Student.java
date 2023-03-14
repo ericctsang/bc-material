@@ -1,6 +1,4 @@
-package week2.School;
-
-import java.security.PublicKey;
+package School;
 
 public class Student {
   // Attributes
@@ -11,7 +9,8 @@ public class Student {
   public Student() {
 
   }
-  public Student(String fristName, String lastName){
+
+  public Student(String fristName, String lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
   }
@@ -41,7 +40,7 @@ public class Student {
     this.age = age;
   }
 
-  public int getAge(){
+  public int getAge() {
     return this.age;
   }
 

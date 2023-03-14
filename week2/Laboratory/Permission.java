@@ -1,4 +1,4 @@
-package week2.Laboratory;
+package Laboratory;
 
 public class Permission {
   Boolean phyPermission;
